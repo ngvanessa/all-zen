@@ -1,0 +1,37 @@
+/* My Awesome Zen Garden Site */
+
+/* Color Palette */
+
+
+/* Layout */
+* {
+    box-sizing: border-box;
+}
+
+/* Footer Nav */
+
+footer {
+    background: yellow;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+footer a {
+display: inline;
+    padding: 1em;
+}
+
+/* First Frame */
+
+footer a {
+    text-indent: -1000px;
+      transition: text-indent 1s;
+}
+
+/* Last Frame */
+
+footer:hover a  {
+     text-indent: 0;
+}
+
